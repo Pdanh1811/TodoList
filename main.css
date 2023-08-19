@@ -2,9 +2,9 @@
 	--dark: #374151;
 	--darker: #1F2937;
 	--darkest: #111827;
-	--grey: #eaedf3;
+	--grey: #86898f;
 	--pink: #977a8c;
-	--purple: #8B5CF6;
+	--purple: #9785c0;
 	--light: #EEE;
 }
 
@@ -20,6 +20,7 @@ body {
 	min-height: 100vh;
 	color: #FFF;
 	background-color: var(--dark);
+	
 }
 
 header {
@@ -32,9 +33,11 @@ header {
 header h1{ 
 	font-size: 2.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: var(--darkest);
 	margin-bottom: 1rem;
+	margin-left: 11vh;
 }
+
 
 #new-task-form {
 	display: flex;;
@@ -65,7 +68,7 @@ input, button {
 	color: var(--pink);
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	background-image: linear-gradient(to right, var(--grey), var(--dark));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	cursor: pointer;
@@ -94,14 +97,14 @@ main {
 .task-list h2 {
 	font-size: 1.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: var(--darkest);
 	margin-bottom: 1rem;
 }
 
 #tasks .task {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--darkest);
+	background-color: var(--darker);
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
@@ -167,5 +170,13 @@ main {
 	opacity: 0.8;
   }
 
+.container{
+	background-color: #0acad1;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-radius: 15px;
+}
 
-  

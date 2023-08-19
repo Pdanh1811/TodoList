@@ -67,5 +67,3 @@ window.addEventListener("load", () => {
     });
   });
 });
-
-

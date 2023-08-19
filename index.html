@@ -20,24 +20,25 @@
     ></script>
   </head>
   <body>
-    <header>
-      <h1>Task List</h1>
-      <form id="new-task-form">
-        <input
-          type="text"
-          name="new-task-input"
-          id="new-task-input"
-          placeholder="Type your task"
-        />
-        <input type="submit" id="new-task-submit" value="Add task" />
-      </form>
-    </header>
-    <main>
-      <section class="task-list">
-        <h2>Tasks</h2>
+    <div class="container">
+      <header>
+        <h1>Todo List</h1>
+        <form id="new-task-form">
+          <input
+            type="text"
+            name="new-task-input"
+            id="new-task-input"
+            placeholder="Type your task"
+          />
+          <input type="submit" id="new-task-submit" value="Add task" />
+        </form>
+      </header>
+      <main>
+        <section class="task-list">
+          <h2>Tasks</h2>
 
-        <div id="tasks">
-          <!-- <div class="task">
+          <div id="tasks">
+            <!-- <div class="task">
 					<div class="content">
 						<input 
 							type="text" 
@@ -50,10 +51,10 @@
 						<button class="delete"><i class="fas fa-trash-alt"></i></button>
 					</div>
 				</div> -->
-        </div>
-      </section>
-    </main>
-
-    <script src="main.js"></script>
+          </div>
+        </section>
+      </main>
+      <script src="main.js"></script>
+    </div>
   </body>
 </html>
